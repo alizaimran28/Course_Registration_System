@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PassedCourse</class>
+ <widget class="QMainWindow" name="PassedCourse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="LoginPage" native="true">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>461</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <widget class="QPushButton" name="Updatebtn">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>310</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 172, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>UPDATE</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="StudentIDLine">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="StudentnameLine">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="CourseNamelabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Student Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDlabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Student ID:</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>461</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(66, 167, 255);</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>30</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;
+background-color: rgb(66, 167, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>Batch Advisor</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="PreReqNameLabel">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>110</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Course Name:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CourseNameLine">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>140</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="PreReqIDlabel">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>180</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Course ID:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CourseIDLine">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>210</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDlabel_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>250</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Grade:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="GradeLine">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>270</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Message">
+     <property name="geometry">
+      <rect>
+       <x>66</x>
+       <y>349</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>340</y>
+       <width>51</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;&lt;Back</string>
+     </property>
+    </widget>
+    <zorder>widget_2</zorder>
+    <zorder>Updatebtn</zorder>
+    <zorder>StudentIDLine</zorder>
+    <zorder>StudentnameLine</zorder>
+    <zorder>CourseNamelabel</zorder>
+    <zorder>IDlabel</zorder>
+    <zorder>PreReqNameLabel</zorder>
+    <zorder>CourseNameLine</zorder>
+    <zorder>PreReqIDlabel</zorder>
+    <zorder>CourseIDLine</zorder>
+    <zorder>IDlabel_2</zorder>
+    <zorder>GradeLine</zorder>
+    <zorder>Message</zorder>
+    <zorder>back</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>459</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

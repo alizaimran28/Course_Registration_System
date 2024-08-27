@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BatchAdvisorLogin</class>
+ <widget class="QMainWindow" name="BatchAdvisorLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="LoginPage" native="true">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>461</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <widget class="QPushButton" name="LoginButton">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>260</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 172, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>login</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="PassLine">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>210</y>
+       <width>321</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nameLine">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>140</y>
+       <width>321</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="AdvisorNamelabel">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>110</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDlabel">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Password:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LoginDetailLabel">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>310</y>
+       <width>361</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>461</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(66, 167, 255);</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>30</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 63 14pt &quot;Sitka Display Semibold&quot;;
+background-color: rgb(66, 167, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>Batch Advisor</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="LoginDetailLabel_2">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>340</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>login as student?</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="LoginStudent">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>340</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 172, 255);
+font: 75 10pt &quot;Arial Narrow&quot;;</string>
+     </property>
+     <property name="text">
+      <string>login</string>
+     </property>
+    </widget>
+    <zorder>widget_2</zorder>
+    <zorder>LoginButton</zorder>
+    <zorder>PassLine</zorder>
+    <zorder>nameLine</zorder>
+    <zorder>AdvisorNamelabel</zorder>
+    <zorder>IDlabel</zorder>
+    <zorder>LoginDetailLabel</zorder>
+    <zorder>LoginDetailLabel_2</zorder>
+    <zorder>LoginStudent</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>459</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
